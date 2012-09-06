@@ -94,7 +94,6 @@
                             <goal>process</goal>
                         </goals>
                         <configuration>
-                            <sourceDirectory>${project.basedir}</sourceDirectory>
                             <outputDirectory>${project.build.directory}/generated-sources/apt</outputDirectory>
                             <processor>com.mysema.query.apt.jpa.JPAAnnotationProcessor</processor>
                             <logOnlyOnError>true</logOnlyOnError>
